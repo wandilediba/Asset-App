@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+        <asp:ContentPlaceHolder id="head" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <link href="Styles/StyleSheet.css" rel="stylesheet" type="text/css" /> 
+       
+   <link rel="stylesheet" type="text/css" href="Styles/bootstrap.css"  media="screen"/>
+    <link href="Styles/navstyle.css" rel="stylesheet" type="text/css" />
+    
+    
+    
+    <style type="text/css">
+        .masthead
+        {
+            height: 10px;
+            width: 844px;
+            margin-right: 0px;
+            margin-top: 21px;
+        }
+    </style>
+
+    
+    
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+     
+       
+    <div id="wrapper">
+          <div id="inner-wrapper">
+              <div id="header">
+                 <div class="menus">
+                 <div class="container">
+                 
+      
+                  <div class="masthead">
+                      <div class="navbar">
+                          <div class="navbar-inner">
+                            <div class="container">
+                              <ul class="nav">
+                                <li><a href="Home.aspx"> Home</a></li>
+                
+                                <li><a href="Services.aspx">Services</a></li>
+               
+                                <li><a href="Report.aspx">Reports</a></li>
+                
+                                <li><a href="#">About</a></li>
+                
+                               <li><a href="contactus.aspx">ContactUs</a></li>
+                 
+                              </ul>
+                             </div>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                   </div>
+                                
+                  
+              
+              </div>
+              <div id="sidebar">
+                          <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                              <p>
+                                  uujjkhkkj</p>
+        
+                           </asp:ContentPlaceHolder>
+                     </div>
+
+                         <div id="content">
+                               <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+                                   <p>
+                                       uyhuu</p>
+        
+                                 </asp:ContentPlaceHolder>
+                          </div>
+              <div id="footer-wrapper">
+             <br />
+             <br />
+                   <p>&copy; Smart Asset 2013, Developed by<strong> Kile Matole </strong>and <strong>Wandile Diba</strong></p>
+
+              </div>
+          </div>
+    </div>
+    
+    
+    
+    </form>
+    </body>
+</html>
